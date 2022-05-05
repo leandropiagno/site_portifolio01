@@ -51,6 +51,7 @@ html {
     background-color: #000;
     height: calc(100vh - 80px);
     background-image: url(/img/programador.png);
+    background-size: cover;
     display: flex;
     align-items: center;
     padding-left: 10%;
@@ -151,7 +152,7 @@ html {
 }
 
 .projects img {
-    width: 22%;
+    width: 300px;
     margin-left: 0.5%;
     margin-right: 0.5%;
     opacity: 0.8;
@@ -235,9 +236,19 @@ footer p {
         width: 80%;
         margin-top: 30px;
     }
-
-    .projects img {
-        width: 27.5%;
+    .projects{
+        margin: 20px;
+    }
+    .project-list {
+        /*flex-direction: column;*/
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+       
+    }
+    .project-list img {
+        margin-bottom: 20px;
     }
 
 
